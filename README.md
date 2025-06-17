@@ -1,47 +1,20 @@
 # 🔍 IP-Spy
 
-**IP-Spy** is a lightweight and powerful command-line tool built with Python that helps you trace and gather information about any public IP address. Whether you're a cybersecurity enthusiast, ethical hacker, or just curious, IP-Spy gives you quick access to location-based IP info like city, ISP, and coordinates — all from your terminal.
+**IP-Spy** is a simple and fast command-line tool created by **Pabit** to trace any public IP address. It provides location, ISP, and other details using the free API from ip-api.com.
 
-> 📦 Developer: **Pabit**  
-> 🛠️ Tool Type: CLI  
-> 🎯 Purpose: Educational / Reconnaissance  
-> 🐍 Language: Python
-
----
-
-## 🚀 Features
-
-- ✅ Trace your **own public IP**
-- ✅ Trace **any external IP address**
-- 🌐 Shows:
-  - Country
-  - Region
-  - City
-  - ZIP code
-  - Latitude & Longitude
-  - ISP & Organization
-- 🎨 Clean colored CLI output using `colorama`
-- 🔓 Open source (MIT Licensed)
+> 🎯 Purpose: Educational & Ethical Hacking  
+> 🧑‍💻 Developer: Pabit  
+> 🐍 Language: Python  
+> ⚙️ Platform: Kali Linux, Termux
 
 ---
 
-## 📸 Demo
+## 🛠️ Commands & Usage
+
+### 🔹 Track Your Own Public IP:
 
 ```bash
-$ python ip_spy.py -i 8.8.8.8
-
-[+] IP Info for: 8.8.8.8
-Country: United States
-Region: California
-City: Mountain View
-ZIP: 94035
-Latitude: 37.386
-Longitude: -122.0838
-ISP: Google LLC
-Org: Google Public DNS
-
-## Install process in TERMUX and kali machine.
-git clone https://github.com/pabit143/ip-spy.git
-cd ip-spy
-pip install -r requirements.txt
-pip install requests colorama
+python ip_spy.py
+---
+# 🎯 Track Someone's IP - CLI Tool
+python ip_spy.py -i <target-ip>
