@@ -39,3 +39,9 @@ Latitude: 37.386
 Longitude: -122.0838
 ISP: Google LLC
 Org: Google Public DNS
+
+## Install process in TERMUX and kali machine.
+git clone https://github.com/pabit143/ip-spy.git
+cd ip-spy
+pip install -r requirements.txt
+pip install requests colorama
